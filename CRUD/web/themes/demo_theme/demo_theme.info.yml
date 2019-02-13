@@ -1,0 +1,33 @@
+name: Drupal8 Demo Theme
+type: theme
+description: 'Designed & Developed by <a href=http://www.yoesh.com>Yogesh shukla</a><br/>Contact us for any kind of Drupal services <a href=mailto:yogesh.shukla@infobeans.com>yogesh.shukla@infobeans.com</a>'
+package: core
+# core: 8.x
+
+#Libraries
+libraries:
+  - demo_theme/global-components
+  - demo_theme/bootstrap 
+#Regions
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'  
+
+  footer: 'Footer First Widget'
+  
+# Information added by Drupal.org packaging script on 2016-01-08
+# version: '8.x-1.0'
+# core: '8.x'
+# project: 'drupal8_zymphonies_theme'
+# datestamp: 1452278346
+
+# Information added by Drupal.org packaging script on 2019-01-24
+version: '8.x-1.4'
+core: '8.x'
+project: 'demo_theme'
+datestamp: 1548354785
